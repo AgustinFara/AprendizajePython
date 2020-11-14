@@ -14,3 +14,7 @@
     
 3. 03-funciones.py
     - *Función que toma dos argumentos e imprime un string.*
+        
+4. 04-funcionconretorno.py
+    - *Función que retorna un valor. Funcion que devuelve porcentual y función que calcula cotización del dólar.*
+    - *Algunas operaciones con valores numericos*
