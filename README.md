@@ -1,10 +1,15 @@
-### **Python Aprendizaje**
+## **Python Aprendizaje**
 
-![Phyton](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png)
 
-#### Este repositorio contiene código python de aprendizaje
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" alt="logo python" width="200" height="200"></img>
+
+Este repositorio contiene código python de aprendizaje. 
+
+Autor: Agustín Fara
 
 ---
+
+#### Listado de Archivos
 
 1. 01-holamundo.py
     - *Primer práctica de todo lenguaje de programación, print de holamundo en consola.*
