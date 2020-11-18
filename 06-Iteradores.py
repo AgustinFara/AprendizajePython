@@ -3,6 +3,10 @@ albums_sui_generis = ["Vida","Confesiones de invierno", "Pequeñas anecdotas sob
 for x in albums_sui_generis:
     print(x)
 
+#Print en consola de álbums de Sui Generis en mayusculas
+for x in albums_sui_generis:
+    print(x.upper())
+
 print() #Espaciado
 
 #Print en consola de 10 numeros comienza en 0

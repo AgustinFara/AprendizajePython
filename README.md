@@ -25,8 +25,16 @@ Autor: Agustín Fara
     - *Algunas operaciones con valores numericos*
 
 5. 05-list(array).py
-    - Ejemplo videoclub donde Genero 2 list (de peliculas y stock) para luego imprimir un listado con las alquiladas y las disponibles.
-    - Ordeno list Peliculas y lo imprimo.
+    - *Ejemplo videoclub donde Genero 2 list (de peliculas y stock) para luego imprimir un listado con las alquiladas y las disponibles.*
+    - *Ordeno list Peliculas y lo imprimo.*
 
 6. 06-Iteradores.py
-    - Distintas formas de ejecutar un for
+    - *Distintas formas de ejecutar un for*
+
+7. 07-condicionales.py
+    - *if, else, elif, distintos ejemplos* 
+
+8. 08-dics(objetos).py
+    - *crear diccionario, modificar y eliminar valores* 
+
+
