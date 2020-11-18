@@ -27,3 +27,6 @@ Autor: Agustín Fara
 5. 05-list(array).py
     - Ejemplo videoclub donde Genero 2 list (de peliculas y stock) para luego imprimir un listado con las alquiladas y las disponibles.
     - Ordeno list Peliculas y lo imprimo.
+
+6. 06-Iteradores.py
+    - Distintas formas de ejecutar un for
