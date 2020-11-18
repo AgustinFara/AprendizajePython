@@ -23,3 +23,7 @@ Autor: Agustín Fara
 4. 04-funcionconretorno.py
     - *Función que retorna un valor. Funcion que devuelve porcentual y función que calcula cotización del dólar.*
     - *Algunas operaciones con valores numericos*
+
+5. 05-list(array).py
+    - Ejemplo videoclub donde Genero 2 list (de peliculas y stock) para luego imprimir un listado con las alquiladas y las disponibles.
+    - Ordeno list Peliculas y lo imprimo.

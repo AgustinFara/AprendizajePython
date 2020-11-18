@@ -20,5 +20,6 @@ print(3**3)
 
 # suma ++ en python
 numero = 5
+print(numero)
 numero += 1
 print(numero)
