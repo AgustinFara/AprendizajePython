@@ -2,11 +2,11 @@ import mysql.connector
 
 from configparser import ConfigParser
 
-#Read config.ini file
+#Leo config.ini file
 config_object = ConfigParser()
 config_object.read("config.ini")
 
-#Get the password
+#Tomar los datos de MySQl del config.ini
 base_data = config_object["MySql"]
 
 mydb = mysql.connector.connect(
@@ -16,11 +16,16 @@ mydb = mysql.connector.connect(
   database=base_data["database"]
 )
 
-nombre = input("que tabla quiere consultar?: \r\n") 
+seguir_consultando = True
 
-mycursor = mydb.cursor()
+while seguir_consultando:
+  
+  nombre = input("que tabla quiere consultar?: \r\n")
 
-mycursor.execute(f"SELECT * FROM {nombre}")
-
-for x in mycursor:
-  print(x)
+  mycursor = mydb.cursor()
+  if nombre == "cerrar":
+    seguir_consultando = False
+  else:
+    mycursor.execute(f"SELECT * FROM {nombre}")
+    for x in mycursor:
+      print(x)
