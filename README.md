@@ -107,4 +107,34 @@ ancia continúa siendo causa de debate, particularmente por la posibilidad de qu
 ```
 
 
+12. 12-configinigenerator.py
+    - *Genera un nuevo archivo config.ini con los parametros pedidos* 
+
+13. 13-sendmail.py
+    - *Envia un mail con HTML* 
+
+
+email_raw.eml
+```HTML
+From: Private Person <from@smtp.smtpman.com> 
+To: A Test User <to@smtp.smtpman.com> 
+MIME-Version: 1.0 
+Content-type: text/html 
+Subject: Email HTML enviado desde Python 
+
+Hola!<br/> <br/> 
+Este es un <b>e-mail</b> enviando desde <b>Python</b> 
+```
+
+14. 14-getapiisbn.py
+    - *Llama a la API de openlibrary para tomar los datos de un libro a partir del ISBN* 
+
+```
+ingrese un ISBN 13:
+9788492966790
+Una breve historia de casi todo - 6. edicion
+['R B A']
+2018
+['9788492966790']
+```
 
