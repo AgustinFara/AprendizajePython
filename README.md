@@ -138,3 +138,308 @@ Una breve historia de casi todo - 6. edicion
 ['9788492966790']
 ```
 
+15. 15-classes.py
+    - *Definición de clases, atributos y métodos en Python* 
+    - *Ejemplos de encapsulamiento, getters y setters, herencia y polimorfismo* 
+
+```
+clase Restaurant objeto 1
+Me construyo con el constructor
+Nombre: Spiagge di Napoli
+
+clase Restaurant objeto 2
+Me construyo con el constructor
+Nombre: McPython's
+
+clase Banco objeto 1
+Nombre: Banco ITAU de Brasil, totaliza el 12% del porcentaje de clientes de la Argentina
+
+clase Banco objeto 2
+Nombre: Banco Macro de Argentina, totaliza el 10% del porcentaje de clientes de la Argentina
+
+clase Banco objeto 1(Se cambiaron los atributos por medio de métodos)
+Nombre: Banco Piano de Argentina, totaliza el 7% del porcentaje de clientes de la Argentina
+
+clase Banco objeto 2(metodos get de atributos)
+Banco Macro
+Argentina
+10%
+
+clase Restaurant accedida desde fuera del objeto(Atributos public)
+Mostrar: Spiagge di Napoli
+Mostrar: McPython's
+
+clase Hotel, herencia de clase Banco
+Nombre: Hyatt de USA, totaliza el 2% del porcentaje de clientes de la Argentina
+
+clase Hotel, accedo a atributo nuevo clase hotel
+Hotel de ***** estrellas
+```
+
+
+16. 16-archivos.py
+    - *Generar archivo y luego leerlo* 
+
+```
+Esta es la linea: 1
+Esta es la linea: 2
+Esta es la linea: 3
+Esta es la linea: 4
+Esta es la linea: 5
+Esta es la linea: 6
+Esta es la linea: 7
+Esta es la linea: 8
+Esta es la linea: 9
+Esta es la linea: 10
+Esta es la linea: 11
+Esta es la linea: 12
+Esta es la linea: 13
+Esta es la linea: 14
+Esta es la linea: 15
+Esta es la linea: 16
+Esta es la linea: 17
+Esta es la linea: 18
+Esta es la linea: 19
+Esta es la linea: 20
+```
+17 Proyecto Consola (Agenda.py)
+        - *Una aplicacion de consola que guarda contactos(nombre, telefono y cumpleaños) en distintos archivos y permite todas las opciones de CRUD (Create, Read, Update y Delete*)
+    
+
+```
+Indique la opción deseada
+------- -- ------ -------
+
+1 - Agregar nuevo Contacto
+2 - Editar contacto
+3 - Ver contactos
+4 - Buscar contacto
+5 - Eliminar contacto
+6 - Salir
+
+Ingrese el número deseado: 1
+```
+
+```
+Ingrese los datos del nuevo Contacto
+------- --- ----- --- ----- --------
+Nombre completo: Neurus
+Teléfono: 12-123-4567
+Ingrese una fecha de cumpleaños formato AAAA.MM.DD: 1967.1.1
+```
+
+```
+El contacto: Neurus se guardo correctamente
+Presione una tecla para continuar...
+```
+
+```
+Indique la opción deseada
+------- -- ------ -------
+
+1 - Agregar nuevo Contacto
+2 - Editar contacto
+3 - Ver contactos
+4 - Buscar contacto
+5 - Eliminar contacto
+6 - Salir
+
+Ingrese el número deseado: 2
+```
+```
+Ingrese los datos del  Contacto a Editar
+------- --- ----- ---  -------- - ------
+Nombre completo: Neurus
+```
+
+```
+PRESIONE ENTER SI DESEA MANTENER EL DATO GUARDADO
+Nombre completo(Neurus), escriba el nuevo: profesor neurus
+```
+
+```
+PRESIONE ENTER SI DESEA MANTENER EL DATO GUARDADO
+Teléfono(12-123-4567), escriba el nuevo:
+```
+
+```
+PRESIONE ENTER SI DESEA MANTENER EL DATO GUARDADO
+Cumpleaños(01/01/1967), escriba el nuevo AAAA.MM.DD:
+```
+
+```
+El contacto: Profesor Neurus se modificó correctamente
+Presione una tecla para continuar...
+```
+
+```
+Indique la opción deseada
+------- -- ------ -------
+
+1 - Agregar nuevo Contacto
+2 - Editar contacto
+3 - Ver contactos
+4 - Buscar contacto
+5 - Eliminar contacto
+6 - Salir
+
+Ingrese el número deseado: 3
+```
+
+```
+Daisy Duck
+----- ----
+Teléfono: 10-333-4321
+Cumpleaños: 07/06/1940
+
+Presione una tecla para continuar...
+```
+
+```
+Donald Fauntleroy Duck
+------ ---------- ----
+Teléfono: 10-123-4567
+Cumpleaños: 03/05/1934
+
+Presione una tecla para continuar...
+```
+
+```
+Dumbella Duck
+-------- ----
+Teléfono: 08-005-7876
+Cumpleaños: 17/10/1937
+
+Presione una tecla para continuar...
+```
+
+```
+Fethry Duck
+------ ----
+Teléfono: 12-1111-1567
+Cumpleaños: 02/08/1964
+
+Presione una tecla para continuar...
+```
+
+```
+Gladstone Gander
+--------- ------
+Teléfono: 77-777-2020
+Cumpleaños: 15/01/1948
+
+Presione una tecla para continuar...
+```
+
+```
+Profesor Neurus
+-------- ------
+Teléfono: 12-123-4567
+Cumpleaños: 01/01/1967
+
+Presione una tecla para continuar...
+```
+
+```
+Professor Ludwig Von Drake
+--------- ------ --- -----
+Teléfono: 18-111-2020
+Cumpleaños: 24/09/1961
+
+Presione una tecla para continuar...
+```
+
+```
+Scrooge Mcduck
+------- ------
+Teléfono: 12-222-1234
+Cumpleaños: 01/12/1947
+
+Presione una tecla para continuar...
+```
+
+```
+Indique la opción deseada
+------- -- ------ -------
+
+1 - Agregar nuevo Contacto
+2 - Editar contacto
+3 - Ver contactos
+4 - Buscar contacto
+5 - Eliminar contacto
+6 - Salir
+
+Ingrese el número deseado: 4
+```
+
+```
+Ingrese los datos del  Contacto a Buscar
+------- --- ----- ---  -------- - ------
+Nombre completo: profesor NeUruS
+```
+
+```
+Profesor Neurus
+-------- ------
+Teléfono: 12-123-4567
+Cumpleaños: 01/01/1967
+
+Presione una tecla para continuar...
+```
+
+```
+Indique la opción deseada
+------- -- ------ -------
+
+1 - Agregar nuevo Contacto
+2 - Editar contacto
+3 - Ver contactos
+4 - Buscar contacto
+5 - Eliminar contacto
+6 - Salir
+
+Ingrese el número deseado: 5
+```
+
+```
+Ingrese los datos del  Contacto a Borrar
+------- --- ----- ---  -------- - ------
+Nombre completo: profesor neurus
+```
+
+```
+Profesor Neurus
+-------- ------
+Teléfono: 12-123-4567
+Cumpleaños: 01/01/1967
+
+Esta seguro que desea eliminar este contacto? S o N: S
+```
+
+```
+El contacto: profesor neurus fue eliminado
+Presione una tecla para continuar...
+```
+
+```
+Indique la opción deseada
+------- -- ------ -------
+
+1 - Agregar nuevo Contacto
+2 - Editar contacto
+3 - Ver contactos
+4 - Buscar contacto
+5 - Eliminar contacto
+6 - Salir
+
+Ingrese el número deseado: 6
+```
+
+```
+Saliendo de la aplicación
+Presione una tecla para continuar...
+```
+
+
+
+

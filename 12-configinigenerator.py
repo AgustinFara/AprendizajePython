@@ -12,5 +12,5 @@ config_object["MySql"] = {
 }
 
 #Genero el archivo config.ini
-with open('config.ini', 'w') as conf:
+with open('config.ini', 'w') as conf: # w es permisos de escritura, si no existe lo crea.
     config_object.write(conf)
